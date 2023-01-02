@@ -17,6 +17,7 @@ Dengan dilakukannya pengembangan berkelanjutan ini, LASIK V3 diharapkan dapat me
 Untuk mengakomodir semua layanan administrasi dan informasi kepegawaian pada Badan Kepegawaian dan Pengembangan Sumber Daya Manusia, maka sistem LASIK V3 dibagi menjadi beberapa modul, yaitu :
 
 a. Modul Kepegawaian (SIMPEG)
+
 Modul Kepegawaian adalah modul yang berisi data utama beserta data-data informasi kepegawaian lainnya yang terintegerasi dengan SAPK (aplikasi kepagawai milik BKN). Pada modul ini terdapat beberapa kategori enititas, sebagai berikut:
 
 1. Data ASN : Data Pribadi, Data Pasangan, Data Anak, Data Orang tua, Data Izin Cerai, Data lainnya
@@ -28,6 +29,7 @@ Modul Kepegawaian adalah modul yang berisi data utama beserta data-data informas
 7. Laporan : Laporan Kepegawaian, Prediksi Data Kepegawaian, Bagan Struktur Organisasi
 
 b. Modul Kinerja (APIK)
+
 Modul Kinerja adalah modul yang berisi transaksi penilaian kinerja dan perhitungan nilai TPP ASN. Pada modul ini terdapat beberapa kategori enititas, sebagai berikut:
 
 1. Presensi : Presensi Online, Daftar Presensi, Jadwal Kerja, Lokasi Kerja, Rekap Presensi ASN, Rekap Presensi OPD, Reset Presensi, Validasi Presensi Bawahan
@@ -36,6 +38,7 @@ Modul Kinerja adalah modul yang berisi transaksi penilaian kinerja dan perhitung
 4. TPP : Rekap TPP OPD, Rekap TPP semua OPD
 
 c. Modul Layanan Online
+
 Modul Layanan Online adalah modul yang mengakomodir semua layanan administrasi kepegawaian yang ada pada Badan Kepegaian dan Pengembangan Sumber Daya Manusia. Pada modul ini terdapat beberapa kategori enititas, sebagai berikut:
 
 1. Pengusulan Kepangkatan
@@ -52,6 +55,7 @@ Modul Layanan Online adalah modul yang mengakomodir semua layanan administrasi k
 12. Pengusulan PLT/PLH
 
 d. Manajemen Sistem
+
 Modul Manajemen Sistem adalah modul yang berisi pengelolaan dan pengaturan system LASIK V3. Pada modul ini terdapat beberapa kategori enititas, sebagai berikut:
 
 1. Manajemen akun User/ ASN
