@@ -8,7 +8,7 @@ Berdasarkan Peraturan Walikota Tangerang Selatan Nomor 67 Tahun 2019, Sistem Lay
 4. Tersedianya penilaian kinerja;
 5. Pembuatan laporan kepegawaian lebih akurat
 
-Saat ini, Sistem Layanan Administrasi dan Informasi Kepegawaian (LASIK) sudah berjalan dengan versi pengembangan V3. Namun untuk mewujudkan sistem yang terintegerasi dan mampu mengakomodir semua layanan kepegawaian, maka perlu adanya pengembangan sistem berkelanjutan. Sistem LASIK V3 yang akan dikembangkan akan memperhatikan kebutuhan layanan kepegawaian serta kemudahan dalam integerasi dengan sistem atau aplikasi yang berkaitan dengan kepegawaian, baik dari sistem / aplikasi dari internal ataupun dengan eksternal seperti Sistem SAPK, SIOLA dan aplikasi lainnya.
+Saat ini, Sistem Layanan Administrasi dan Informasi Kepegawaian (LASIK) sudah berjalan dengan versi pengembangan V2. Namun untuk mewujudkan sistem yang terintegerasi dan mampu mengakomodir semua layanan kepegawaian, maka perlu adanya pengembangan sistem berkelanjutan. Sistem LASIK V3 yang akan dikembangkan akan memperhatikan kebutuhan layanan kepegawaian serta kemudahan dalam integerasi dengan sistem atau aplikasi yang berkaitan dengan kepegawaian, baik dari sistem / aplikasi dari internal ataupun dengan eksternal seperti Sistem SAPK, SIOLA dan aplikasi lainnya.
 
 Dengan dilakukannya pengembangan berkelanjutan ini, LASIK V3 diharapkan dapat menjadi sistem administrasi dan informasi kebegawaian yang dapat mengakomodir semua layanan kepegawaian serta informasi data kepegawaian di Kota Tangerang Selatan.
 
