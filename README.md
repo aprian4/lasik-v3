@@ -19,79 +19,21 @@ Untuk mengakomodir semua layanan administrasi dan informasi kepegawaian pada Bad
 a. Modul Kepegawaian (SIMPEG)
 Modul Kepegawaian adalah modul yang berisi data utama beserta data-data informasi kepegawaian lainnya yang terintegerasi dengan SAPK (aplikasi kepagawai milik BKN). Pada modul ini terdapat beberapa kategori enititas, sebagai berikut:
 
-1. Data ASN:
-   • Data Pribadi
-   • Data Pasangan
-   • Data Anak
-   • Data Orang tua
-   • Data Izin Cerai
-   • Data lainnya
-2. Riwayat Kepegawaian:
-   • Riwayat CPNS/ PNS
-   • Riwayat Golongan/Kenaikan Pangkat
-   • Riwayat Jabatan
-   • Riwayat Jabatan Tambahan
-   • Riwayat Gaji Berkala
-   • Riwayat PAK
-   • Riwayat Pensiun
-   • Riwayat peninjauan masa kerja
-3. Riwayat Pendidikan:
-   • Riwayat Pendidikan
-   • Riwayat Izin Belajar
-   • Penyesuaian Ijazah
-4. Riwayat Pelatihan
-   • Riwayat Diklat Penjenjangan
-   • Riwayat Diklat Teknis
-   • Riwayat Diklat Fungsional
-   • Riwayat/Seminar/Simposium/Workshop
-5. Riwayat Kinerja:
-   • Riwayat SKP
-   • Riwayat Penghargaan
-   • Riwayat Disiplin
-   • Riwayat CLTN 6. Riwayat Pindah Instansi:
-   • Riwayat Masuk
-   • Riwayat Keluar
-6. Riwayat Lainnya:
-   • Riwayat Profesi (guru, dokter, dll)
-   • Riwayat STR
-   • Kunjungan Luar Negeri
-7. Laporan
-   • Laporan Kepegawaian
-   • Prediksi Data Kepegawaian
-   • Bagan Struktur Organisasi
+1. Data ASN : Data Pribadi, Data Pasangan, Data Anak, Data Orang tua, Data Izin Cerai, Data lainnya
+2. Riwayat Kepegawaian : Riwayat CPNS/ PNS, Riwayat Golongan/Kenaikan Pangkat, Riwayat Jabatan, Riwayat Jabatan Tambahan, Riwayat Gaji Berkala, Riwayat PAK, Riwayat Pensiun, Riwayat peninjauan masa kerja
+3. Riwayat Pendidikan : Riwayat Pendidikan, Riwayat Izin Belajar, Penyesuaian Ijazah
+4. Riwayat Pelatihan : Riwayat Diklat Penjenjangan, Riwayat Diklat Teknis, Riwayat Diklat Fungsional, Riwayat/Seminar/Simposium/Workshop
+5. Riwayat Kinerja : Riwayat SKP, Riwayat Penghargaan, Riwayat Disiplin, Riwayat CLTN 6. Riwayat Pindah Instansi:, Riwayat Masuk, Riwayat Keluar
+6. Riwayat Lainnya : Riwayat Profesi (guru, dokter, dll), Riwayat STR, Kunjungan Luar Negeri
+7. Laporan : Laporan Kepegawaian, Prediksi Data Kepegawaian, Bagan Struktur Organisasi
 
 b. Modul Kinerja (APIK)
 Modul Kinerja adalah modul yang berisi transaksi penilaian kinerja dan perhitungan nilai TPP ASN. Pada modul ini terdapat beberapa kategori enititas, sebagai berikut:
 
-1. Presensi:
-   • Presensi Online
-   • Daftar Presensi
-   • Jadwal Kerja
-   • Lokasi Kerja
-   • Rekap Presensi ASN
-   • Rekap Presensi OPD
-   • Reset Presensi
-   • Validasi Presensi Bawahan
-2. Aktivitas:
-   • Daftar Aktifitas
-   • Master Aktifitas
-   • Pengajuan Master Aktifitas
-   • Reset Aktivitas
-   • Validasi Aktifitas Bawahan
-3. Penilaian Prestasi Kerja (PPK):
-   • Sasaran Kinerja Pegawai (SKP)
-   • Realisasi SKP Tahunan
-   • Realisasi SKP Bulanan
-   • Validasi SKP Tahunan Bawahan
-   • Validasi SKP Bulanan Bawahan
-   • Penilaian Perilaku Bawahan
-   • Reset SKP Tahunan
-   • Reset SKP Bulanan
-   • Reset Penilaian Perilaku
-   • Download PPK
-4. TPP:
-   • Rekap TPP OPD
-   • Rekap TPP semua OPD
+1. Presensi : Presensi Online, Daftar Presensi, Jadwal Kerja, Lokasi Kerja, Rekap Presensi ASN, Rekap Presensi OPD, Reset Presensi, Validasi Presensi Bawahan
+2. Aktivitas : Daftar Aktifitas, Master Aktifitas, Pengajuan Master Aktifitas, Reset Aktivitas, Validasi Aktifitas Bawahan
+3. Penilaian Prestasi Kerja (PPK) : Sasaran Kinerja Pegawai (SKP), Realisasi SKP Tahunan, Realisasi SKP Bulanan, Validasi SKP Tahunan Bawahan, Validasi SKP Bulanan Bawahan, Penilaian Perilaku Bawahan, Reset SKP Tahunan, Reset SKP Bulanan, Reset Penilaian Perilaku, Download PPK
+4. TPP : Rekap TPP OPD, Rekap TPP semua OPD
 
 c. Modul Layanan Online
 Modul Layanan Online adalah modul yang mengakomodir semua layanan administrasi kepegawaian yang ada pada Badan Kepegaian dan Pengembangan Sumber Daya Manusia. Pada modul ini terdapat beberapa kategori enititas, sebagai berikut:
