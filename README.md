@@ -1,67 +1,106 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## DESKRIPSI LASIK V3
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Berdasarkan Peraturan Walikota Tangerang Selatan Nomor 67 Tahun 2019, Sistem Layanan Administrasi dan Informasi Kepegawaian yang selanjutnya disebut LASIK adalah suatu kumpulan proses algoritmik, basis data, alur kerja dan interaksi manusia dengan menggunakan teknologi informasi dan komunikasi yang diorganisasikan secara terpadu berkaitan dengan manajemen kepegawaian Aparatur Sipil Negara di lingkungan Pemerintah Kota Tangerang Selatan. Tujuan dari Sistem Layanan Administrasi dan Informasi Kepegawaian, yaitu:
 
-## About Laravel
+1. Mewujudkan basis data kepegawaian yang lengkap, valid, terbaru dan terintegrasi secara langsung;
+2. Mempercepat proses pengelolaan dan penyajian data;
+3. Tersedianya bahan analisis kepegawaian;
+4. Tersedianya penilaian kinerja;
+5. Pembuatan laporan kepegawaian lebih akurat
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## MODUL LASIK V3
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Untuk mengakomodir semua layanan administrasi dan informasi kepegawaian pada Badan Kepegawaian dan Pengembangan Sumber Daya Manusia, maka sistem LASIK V3 dibagi menjadi beberapa modul, yaitu :
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+a. Modul Kepegawaian (SIMPEG)
+Modul Kepegawaian adalah modul yang berisi data utama beserta data-data informasi kepegawaian lainnya yang terintegerasi dengan SAPK (aplikasi kepagawai milik BKN). Pada modul ini terdapat beberapa kategori enititas, sebagai berikut: 1. Data ASN:
+• Data Pribadi
+• Data Pasangan
+• Data Anak
+• Data Orang tua
+• Data Izin Cerai
+• Data lainnya 2. Riwayat Kepegawaian:
+• Riwayat CPNS/ PNS
+• Riwayat Golongan/Kenaikan Pangkat
+• Riwayat Jabatan
+• Riwayat Jabatan Tambahan
+• Riwayat Gaji Berkala
+• Riwayat PAK
+• Riwayat Pensiun
+• Riwayat peninjauan masa kerja 3. Riwayat Pendidikan:
+• Riwayat Pendidikan
+• Riwayat Izin Belajar
+• Penyesuaian Ijazah 4. Riwayat Pelatihan
+Riwayat Diklat Penjenjangan
+• Riwayat Diklat Teknis
+• Riwayat Diklat Fungsional
+Riwayat/Seminar/Simposium/Workshop 5. Riwayat Kinerja:
+• Riwayat SKP
+• Riwayat Penghargaan
+• Riwayat Disiplin
+• Riwayat CLTN 6. Riwayat Pindah Instansi:
+• Riwayat Masuk
+• Riwayat Keluar 7. Riwayat Lainnya:
+• Riwayat Profesi (guru, dokter, dll)
+• Riwayat STR
+Kunjungan Luar Negeri 8. Laporan
+• Laporan Kepegawaian
+• Prediksi Data Kepegawaian
+• Bagan Struktur Organisasi
 
-## Learning Laravel
+b. Modul Kinerja (APIK)
+Modul Kinerja adalah modul yang berisi transaksi penilaian kinerja dan perhitungan nilai TPP ASN. Pada modul ini terdapat beberapa kategori enititas, sebagai berikut: 1. Presensi:
+• Presensi Online
+• Daftar Presensi
+• Jadwal Kerja
+• Lokasi Kerja
+• Rekap Presensi ASN
+• Rekap Presensi OPD
+• Reset Presensi
+• Validasi Presensi Bawahan 2. Aktivitas:
+• Daftar Aktifitas
+• Master Aktifitas
+• Pengajuan Master Aktifitas
+• Reset Aktivitas
+• Validasi Aktifitas Bawahan 3. Penilaian Prestasi Kerja (PPK):
+• Sasaran Kinerja Pegawai (SKP)
+• Realisasi SKP Tahunan
+• Realisasi SKP Bulanan
+• Validasi SKP Tahunan Bawahan
+• Validasi SKP Bulanan Bawahan
+• Penilaian Perilaku Bawahan
+• Reset SKP Tahunan
+• Reset SKP Bulanan
+• Reset Penilaian Perilaku
+• Download PPK 4. TPP:
+• Rekap TPP OPD
+• Rekap TPP semua OPD
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+c. Modul Layanan Online
+Modul Layanan Online adalah modul yang mengakomodir semua layanan administrasi kepegawaian yang ada pada Badan Kepegaian dan Pengembangan Sumber Daya Manusia. Pada modul ini terdapat beberapa kategori enititas, sebagai berikut: 1. Pengusulan Kepangkatan 2. Pengusulan Ijin Belajar 3. Pengusulan Penyesuaian Ijazah 4. Pengusulan Legalisir 5. Pengusulan Kartu ASN 6. Pengusulan Karis/Karsu 7. Pengusulan Izin Cerai 8. Pengusulan Satya Lencana 9. Pengusulan Diklat 10. Pengusulan Pensiun 11. Pengusulan Pencantuman Gelar 12. Pengusulan PLT/PLH
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+d. Manajemen Sistem
+Modul Manajemen Sistem adalah modul yang berisi pengelolaan dan pengaturan system LASIK V3. Pada modul ini terdapat beberapa kategori enititas, sebagai berikut: 1. Manajemen akun User/ ASN 2. Manajemen Data Sidik Jari dan Wajah 3. Manajemen pengumuman 4. Manajemen helpdesk
 
 ## Laravel Sponsors
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
+## Definisi Aktor
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Sistem LASIK V3 memiliki beberapa aktor yang memiliki hak akses berdasarkan posisi dan kebutuhan actor dalam Layanan Administrasi dan Informasi Kepegawaian. Berikut aktor-aktor dalam LASIK V3 dapat dilihat pada tabel di bawah ini.
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# lasik-v3
+1. ASN => Pengguna aplikasi yang memiliki kewajiban melengkapi dan bertanggungjawab terhadap datanya dalam pemutakhiran data yang berkedudukan sebagai PNS atau PPPK di lingkungan Pemerintah Kota Tangerang Selatan
+2. Super Admin => Pengguna aplikasi yang memiliki akses untuk melakukan pengelolaan role user dan pemeliharaan sistem
+3. Admin => Pengguna aplikasi yang memiliki akses untuk melakukan pengelolaan data yang berkedudukan di BKPSDM
+4. OP PD => Pengguna aplikasi yang memiliki wewenang untuk melakukan perubahan data dan menjaga validasi data yang berkedudukan di masing-masing Perangkat Daerah
+5. OP Mutasi Fungsional => Pengguna aplikasi yang memiliki wewenang untuk melakukan verifikasi dan layanan kepegawaian sesuai tugas dan fungsi dari Sub Koordinator Mutasi dan Promosi Jabatan Fungsional
+6. OP Mutasi Struktural
+   Pengguna aplikasi yang memiliki wewenang untuk melakukan verifikasi dan layanan kepegawaian sesuai tugas dan fungsi dari Sub Koordinator Mutasi Dan Promosi Jabatan Pimpinan Tinggi Pertama Dan Jabatan Administrasi
+7. OP Mutasi Bangrir => Pengguna aplikasi yang memiliki wewenang untuk melakukan verifikasi dan layanan kepegawaian sesuai tugas dan fungsi dari Sub Koordinator Pengembangan Karir
+8. OP Diklat Fungsional => Pengguna aplikasi yang memiliki wewenang untuk melakukan verifikasi dan layanan kepegawaian sesuai tugas dan fungsi dari Sub Koordinator Pendidikan Dan Pelatihan Kepemimpinan Dan Fungsional
+9. OP Diklat Struktural => Pengguna aplikasi yang memiliki wewenang untuk melakukan verifikasi dan layanan kepegawaian sesuai tugas dan fungsi dari Sub Koordinator Pendidikan Dan Pelatihan Teknis
+10. OP Diklat Rembang => Pengguna aplikasi yang memiliki wewenang untuk melakukan verifikasi dan layanan kepegawaian sesuai tugas dan fungsi dari Sub Koordinator Perencanaan Dan Pengembangan Pendidikan Dan Pelatihan
+11. OP Datin => Pengguna aplikasi yang memiliki wewenang untuk melakukan verifikasi dan layanan kepegawaian sesuai tugas dan fungsi dari Sub Koordinator Data Dan Informasi Kepegawaian
+12. OP Pembinaan => Pengguna aplikasi yang memiliki wewenang untuk melakukan verifikasi dan layanan kepegawaian sesuai tugas dan fungsi dari Sub Koordinator Pembinaan, Penilaian Dan Evaluasi Kinerja Aparatur
+13. OP Pengadaan => Pengguna aplikasi yang memiliki wewenang untuk melakukan verifikasi dan layanan kepegawaian sesuai tugas dan fungsi dari Sub
