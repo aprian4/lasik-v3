@@ -1,7 +1,7 @@
 <nav id="maximini" class="side-nav">
     <a href="" class="intro-x flex items-center pl-5 pt-4">
         <img alt="Midone - HTML Admin Template" class="w-9" src="images/logo.png">
-        <span id="font-lasik" class="hidden xl:block text-white text-lg ml-3"> LASIK </span> 
+        <span id="font-lasik" class="hidden xl:block text-white text-lg ml-3"> LASIK TANGSEL</span> 
     </a>
     <div class="side-nav__devider my-6"></div>
     
@@ -229,7 +229,7 @@
                 </li>
             </ul>
         </li>
-        <li>
+        {{-- <li>
             <a href="javascript:;" class="side-menu">
                 <div class="side-menu__icon cursor-pointer" title="ADIPATI"> <i data-lucide="book-open"></i> </div>
                 <div class="side-menu__title">
@@ -251,7 +251,7 @@
                     </a>
                 </li>
             </ul>
-        </li>
+        </li> --}}
         <li>
             <a href="javascript:;" class="side-menu">
                 <div class="side-menu__icon cursor-pointer" title="HELPDESK"> <i data-lucide="headphones"></i> </div>
