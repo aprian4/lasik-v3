@@ -8,7 +8,7 @@
             <!-- BEGIN: General Report -->
             <div class="col-span-12 mt-8">
                     <center>
-                        <b><p style="font-size: 40px" class="mb-5">LASIK</p></b>
+                        <b><p style="font-size: 40px" class="mb-5">ADMIN</p></b>
                         <p style="font-size: 25px" class="mb-5">Layanan Administrasi dan Informasi Kepegawaian</p>   
                     </center>
                 <div class="grid grid-cols-12 gap-6 mt-0">
@@ -31,7 +31,7 @@
                                 </div>
                             </center>
                         </div>
-                        {{-- <div class="col-span-12 sm:col-span-6 2xl:col-span-4 intro-y">
+                        <div class="col-span-12 sm:col-span-6 2xl:col-span-4 intro-y">
                             <center>
                                 <div class="box p-5 zoom-in">
                                     <img src="images/icon/aladin.png" alt="" sizes="100" srcset="">
@@ -40,7 +40,7 @@
                                 </div>
                             </center>
                         </div>
-                        <div class="col-span-12 sm:col-span-6 2xl:col-span-4 intro-y">
+                        {{-- <div class="col-span-12 sm:col-span-6 2xl:col-span-4 intro-y">
                             <center>
                                 <div class="box p-5 zoom-in">
                                     <img src="images/icon/simapeka.png" alt="" sizes="100" srcset="">
@@ -48,7 +48,7 @@
                                     <div class="text-slate-500 mb-5">Sistem Informasi Manajemen Diklat</div>
                                 </div>
                             </center>
-                        </div> --}}
+                        </div>
                         <div class="col-span-12 sm:col-span-6 2xl:col-span-4 intro-y">
                             <center>
                                 <div class="box p-5 zoom-in">
@@ -57,7 +57,7 @@
                                     <div class="text-slate-500 mt-0">Arsip Digital Pembinaan Pegawai Berbasis Teknologi Informasi</div>
                                 </div>
                             </center>
-                        </div>
+                        </div> --}}
                         <div class="col-span-12 sm:col-span-6 2xl:col-span-4 intro-y">
                             <center>
                                 <div class="box p-5 zoom-in">

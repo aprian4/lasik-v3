@@ -151,6 +151,18 @@
                 </li>
                 <li>
                     <a href="simple-menu-light-dashboard-overview-1.html" class="side-menu">
+                        <div class="side-menu__icon cursor-pointer" title="SIMAPEKA"> <i data-lucide="circle"></i> </div>
+                        <div class="side-menu__title"> SIMAPEKA </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="simple-menu-light-dashboard-overview-1.html" class="side-menu">
+                        <div class="side-menu__icon cursor-pointer" title="ADIPATI"> <i data-lucide="circle"></i> </div>
+                        <div class="side-menu__title"> ADIPATI </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="simple-menu-light-dashboard-overview-1.html" class="side-menu">
                         <div class="side-menu__icon cursor-pointer" title="Legalisir"> <i data-lucide="circle"></i> </div>
                         <div class="side-menu__title"> Legalisir </div>
                     </a>
