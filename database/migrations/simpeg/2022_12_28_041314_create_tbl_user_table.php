@@ -18,7 +18,7 @@ return new class extends Migration
             $table->integer('id', true);
             $table->string('nama', 50);
             $table->string('skpd', 200)->nullable();
-            $table->integer('level_id')->nullable()->default(0)->index('level_id')->comment('level pengguna aplikasi, 0 = administrator; 1 =verifikator pusat, 2 = administrator opd, 3 =user, 4=administrator bidang, 5=umpeg skpd ');
+            $table->integer('level_id')->nullable()->default(0)->index('level_id')->comment('level pengguna aplikasi, 1 = Super Admin, 2 = Admin, 3 = ASN, 4 = OP PD, 5 = OP Mutasi Fungsional, 6 = OP Mutasi Struktural, 7 = OP Mutasi Bangrir, 8 = OP Diklat Fungsional, 9 = OP Diklat Struktural, 10 = OP Diklat Rembang, 11 = OP Datin, 12 = OP Pembinaan, 13 = OP Pengadaan ');
             $table->string('email', 50)->nullable()->index('email');
             $table->string('hp', 20)->nullable();
             $table->string('username', 30)->unique('username');
