@@ -14,7 +14,7 @@
         <div class="side-menu__title text-white mt-2">
             <p><b>{{ Auth::user()->nama }}</b></p>
             <p><b>NIP. {{ Auth::user()->username }}</b></p>
-            <p>Staff Seksi Data dan Informasi Kepegawaian</p>
+            <p>{{ Auth::user()->skpd }}</p>
         </div>
     </center>
         <div class="side-nav__devider my-6"></div>
