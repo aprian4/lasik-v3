@@ -22,7 +22,7 @@ return new class extends Migration
             $table->string('email', 50)->nullable()->index('email');
             $table->string('hp', 20)->nullable();
             $table->string('username', 30)->unique('username');
-            $table->string('password', 60);
+            $table->string('password', 400);
             $table->boolean('def_passwd')->unsigned()->default(true);
             $table->boolean('hp_verified')->unsigned()->default(false);
             $table->boolean('email_verified')->unsigned()->default(false);
