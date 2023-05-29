@@ -9,12 +9,12 @@
     <div id="side-profil">
     <center>
         <div class="w-24 h-24 image-fit relative">
-            <img alt="" class="rounded-full border-white shadow-md tooltip" src="images/profil.jpg">
+            <img alt="" class="rounded-full border-white shadow-md tooltip" src="images/profil.webp">
         </div>
         <div class="side-menu__title text-white mt-2">
-            <p><b>Aprian Karisman, S.T</b></p>
-            <p><b>NIP. 199304292020121007</b></p>
-            <p>Staff Seksi Data dan Informasi Kepegawaian</p>
+            <p><b>{{ Auth::user()->nama }}</b></p>
+            <p><b>NIP. {{ Auth::user()->username }}</b></p>
+            <p>{{ Auth::user()->skpd }}</p>
         </div>
     </center>
         <div class="side-nav__devider my-6"></div>
