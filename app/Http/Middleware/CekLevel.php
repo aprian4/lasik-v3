@@ -23,7 +23,7 @@ class CekLevel
         }
 
         if (Auth::user()->level_id == 0) {
-            return Redirect::to('/admin');
+            return Redirect::to('/');
         } else {
             return Redirect::to('/');
         }

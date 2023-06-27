@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.master-utama')
 
 @section('content')
 
@@ -15,11 +15,13 @@
                     <div class="col-span-12 grid grid-cols-12 gap-6 mt-3">
                         <div class="col-span-12 sm:col-span-6 2xl:col-span-4 intro-y">
                             <center>
+                            <a href="{{ url('simpeg') }}">
                                 <div class="box p-5 zoom-in">
-                                    <img src="images/icon/simpeg.png" alt="" sizes="100" srcset="">
+                                    <img src="{{ url('images/icon/simpeg.png') }}" alt="" sizes="100" srcset="">
                                     <div class="text-lg font-medium truncate mt-2">SIMPEG</div>
                                     <div class="text-slate-500 mb-5">Sistem Informasi Kepegawaian</div>
                                 </div>
+                            </a>
                             </center>
                         </div>
                         <div class="col-span-12 sm:col-span-6 2xl:col-span-4 intro-y">
@@ -31,10 +33,10 @@
                                 </div>
                             </center>
                         </div>
-                        {{-- <div class="col-span-12 sm:col-span-6 2xl:col-span-4 intro-y">
+                         <div class="col-span-12 sm:col-span-6 2xl:col-span-4 intro-y">
                             <center>
                                 <div class="box p-5 zoom-in">
-                                    <img src="images/icon/aladin.png" alt="" sizes="100" srcset="">
+                                    <img src="{{ url('images/icon/aladin.png') }}" alt="" sizes="100" srcset="">
                                     <div class="text-lg font-medium truncate mt-2">ALADIN</div>
                                     <div class="text-slate-500 mb-5">Aplikasi Layanan Digital Kepegawaian</div>
                                 </div>
@@ -43,25 +45,34 @@
                         <div class="col-span-12 sm:col-span-6 2xl:col-span-4 intro-y">
                             <center>
                                 <div class="box p-5 zoom-in">
-                                    <img src="images/icon/simapeka.png" alt="" sizes="100" srcset="">
+                                    <img src="{{ url('images/icon/simapeka.png') }}" alt="" sizes="100" srcset="">
                                     <div class="text-lg font-medium truncate mt-2">SIMAPEKA</div>
                                     <div class="text-slate-500 mb-5">Sistem Informasi Manajemen Diklat</div>
-                                </div>
-                            </center>
-                        </div> --}}
-                        <div class="col-span-12 sm:col-span-6 2xl:col-span-4 intro-y">
-                            <center>
-                                <div class="box p-5 zoom-in">
-                                    <img src="images/icon/adipati.png" alt="" sizes="100" srcset="">
-                                    <div class="text-lg font-medium truncate mt-2">ADIPATI</div>
-                                    <div class="text-slate-500 mt-0">Arsip Digital Pembinaan Pegawai Berbasis Teknologi Informasi</div>
                                 </div>
                             </center>
                         </div>
                         <div class="col-span-12 sm:col-span-6 2xl:col-span-4 intro-y">
                             <center>
                                 <div class="box p-5 zoom-in">
-                                    <img src="images/icon/helpdesk.png" alt="" sizes="100" srcset="">
+                                    <img src="{{ url('images/icon/sipenabaja.png') }}" alt="" sizes="100" srcset="">
+                                    <div class="text-lg font-medium truncate mt-2">SIPENABAJA</div>
+                                    <div class="text-slate-500 mt-0">Sistem Pendukung Administrasi <br> Pertimbangan Jabatan</div>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="col-span-12 sm:col-span-6 2xl:col-span-4 intro-y">
+                            <center>
+                                <div class="box p-5 zoom-in">
+                                    <img src="{{ url('images/icon/adipati.png') }}" alt="" sizes="100" srcset="">
+                                    <div class="text-lg font-medium truncate mt-2">ADIPATI</div>
+                                    <div class="text-slate-500 mt-0">Arsip Digital Pembinaan Pegawai <br> Berbasis Teknologi Informasi</div>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="col-span-12 sm:col-span-6 2xl:col-span-4 intro-y">
+                            <center>
+                                <div class="box p-5 zoom-in">
+                                    <img src="{{ url('images/icon/helpdesk.png') }}" alt="" sizes="100" srcset="">
                                     <div class="text-lg font-medium truncate mt-2">HELPDESK</div>
                                     <div class="text-slate-500 mb-5">Layanan Pengaduan Kepegawaian</div>
                                 </div>
@@ -69,11 +80,13 @@
                         </div>
                         <div class="col-span-12 sm:col-span-6 2xl:col-span-4 intro-y">
                             <center>
+                            <a href="{{ url('manajemen') }}">
                                 <div class="box p-5 zoom-in">
-                                    <img src="images/icon/manajemen.png" alt="" sizes="100" srcset="">
+                                    <img src="{{ url('images/icon/manajemen.png') }}" alt="" sizes="100" srcset="">
                                     <div class="text-lg font-medium truncate mt-2">Manajemen</div>
                                     <div class="text-slate-500 mb-5">Pengaturan Sistem</div>
                                 </div>
+                            </a>
                             </center>
                         </div>
                     </div>

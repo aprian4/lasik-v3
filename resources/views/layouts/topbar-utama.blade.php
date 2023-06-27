@@ -1,12 +1,12 @@
 <div class="top-bar">
     <!-- BEGIN: Breadcrumb -->
-        <nav aria-label="breadcrumb" class="-intro-x mr-auto hidden sm:flex">
+        <!-- <nav aria-label="breadcrumb" class="-intro-x mr-auto hidden sm:flex">
             <div id="toogle">
                 <button>
                     <i data-lucide="menu"></i>
                 </button>
             </div>
-        </nav>
+        </nav> -->
         <a href="" class="ml-auto flex items-center text-primary"> <i data-lucide="refresh-ccw" class="w-4 h-4 mr-3"></i> Refresh </a>
     
     <!-- END: Breadcrumb -->
