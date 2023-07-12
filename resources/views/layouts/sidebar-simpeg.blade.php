@@ -13,7 +13,7 @@
     <div id="side-profil">
     <center>
         <div class="w-24 h-24 image-fit relative">
-            <img alt="" class="rounded-full border-white shadow-md tooltip" src="{{ url('images/profil.webp') }}">
+            <img alt="" class="rounded-full border-white shadow-md tooltip" src="{{ url('images/profil.jpg') }}">
         </div>
         <div class="side-menu__title text-white mt-2">
             <p><b>{{ Auth::user()->nama }}</b></p>
@@ -41,45 +41,12 @@
             </a>
         </li>
         <li>
-            <a href="javascript:;" class="side-menu{{ (request()->is('simpeg/biodata*')) ? ' side-menu--active' : '' }}">
+            <a href="{{ url('/simpeg/biodata/data-utama') }}" class="side-menu{{ (request()->is('simpeg/biodata*')) ? ' side-menu--active' : '' }}">
                 <div class="side-menu__icon cursor-pointer" title="BIODATA"> <i data-lucide="user"></i> </div>
                 <div class="side-menu__title">
                     BIODATA
-                    <div class="side-menu__sub-icon "> <i data-lucide="chevron-down"></i> </div>
                 </div>
-            </a>
-            <ul class="{{ (request()->is('simpeg/biodata*')) ? 'side-menu__sub-open' : '' }}">
-                <li>
-                    <a href="{{ url('/simpeg/biodata/data-utama')}}" class="side-menu{{ (request()->is('simpeg/biodata/data-utama')) ? ' side-menu--active' : '' }}">
-                        <div class="side-menu__icon cursor-pointer" title="Data Utama"> <i data-lucide="circle"></i> </div>
-                        <div class="side-menu__title"> Data Utama </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="simple-menu-light-dashboard-overview-1.html" class="side-menu{{ (request()->is('simpeg/biodata/data-pendukung')) ? ' side-menu--active' : '' }}">
-                        <div class="side-menu__icon cursor-pointer" title="Data Pendukung"> <i data-lucide="circle"></i> </div>
-                        <div class="side-menu__title"> Data Pendukung</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="simple-menu-light-dashboard-overview-1.html" class="side-menu{{ (request()->is('simpeg/biodata/riwayat-pasangan')) ? ' side-menu--active' : '' }}">
-                        <div class="side-menu__icon cursor-pointer" title="Riwayat Pasangan"> <i data-lucide="circle"></i> </div>
-                        <div class="side-menu__title"> Riwayat Pasangan</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="simple-menu-light-dashboard-overview-1.html" class="side-menu{{ (request()->is('simpeg/biodata/riwayat-anak')) ? ' side-menu--active' : '' }}">
-                        <div class="side-menu__icon cursor-pointer" title="Riwayat Anak"> <i data-lucide="circle"></i> </div>
-                        <div class="side-menu__title"> Riwayat Anak</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="simple-menu-light-dashboard-overview-1.html" class="side-menu{{ (request()->is('simpeg/biodata/riwayat-orangtua')) ? ' side-menu--active' : '' }}">
-                        <div class="side-menu__icon cursor-pointer" title="Data Orang Tua"> <i data-lucide="circle"></i> </div>
-                        <div class="side-menu__title"> Data Orang Tua</div>
-                    </a>
-                </li>
-            </ul>
+            </a>            
         </li>
         <li>
             <a href="javascript:;" class="side-menu{{ (request()->is('simpeg/kepegawaian*')) ? ' side-menu--active' : '' }}">
