@@ -1,26 +1,26 @@
 @php
-  $menu_aktif = 0;  
+$menu_aktif = 0;
 @endphp
 
 <nav id="maximini" class="side-nav">
     <a href="" class="intro-x flex items-center pl-5 pt-4">
-        <img alt="Midone - HTML Admin Template" class="w-9" src="{{ url('images/logo.png') }}">
-        <span id="font-lasik" class="hidden xl:block text-white text-lg ml-3"> SIMPEG</span> 
+        <img alt="" class="w-9" src="{{ url('images/logo.png') }}">
+        <span id="font-lasik" class="hidden xl:block text-white text-lg ml-3"> SIMPEG</span>
     </a>
     <div class="side-nav__devider my-6"></div>
-    
-    
+
+
     <div id="side-profil">
-    <center>
-        <div class="w-24 h-24 image-fit relative">
-            <img alt="" class="rounded-full border-white shadow-md tooltip" src="{{ url('images/profil.jpg') }}">
-        </div>
-        <div class="side-menu__title text-white mt-2">
-            <p><b>{{ Auth::user()->nama }}</b></p>
-            <p><b>NIP. {{ Auth::user()->username }}</b></p>
-            <p>{{ Auth::user()->skpd }}</p>
-        </div>
-    </center>
+        <center>
+            <div class="w-24 h-24 image-fit relative">
+                <img alt="" class="rounded-full border-white shadow-md tooltip" src="{{ url('images/profil.jpg') }}">
+            </div>
+            <div class="side-menu__title text-white mt-2">
+                <p><b>{{ Auth::user()->nama }}</b></p>
+                <p><b>NIP. {{ Auth::user()->username }}</b></p>
+                <p>{{ Auth::user()->skpd }}</p>
+            </div>
+        </center>
         <div class="side-nav__devider my-6"></div>
     </div>
     <ul>
@@ -28,7 +28,7 @@
             <a href="{{ url('/')}}" class="side-menu{{ (request()->is('')) ? ' side-menu--active' : '' }}">
                 <div class="side-menu__icon cursor-pointer" title="MENU UTAMA"> <i data-lucide="home"></i> </div>
                 <div class="side-menu__title">
-                    MENU UTAMA 
+                    MENU UTAMA
                 </div>
             </a>
         </li>
@@ -36,17 +36,17 @@
             <a href="{{ url('/simpeg')}}" class="side-menu{{ (request()->is('simpeg')) ? ' side-menu--active' : '' }}">
                 <div class="side-menu__icon cursor-pointer" title="DASHBOARD"> <i data-lucide="layout-dashboard"></i> </div>
                 <div class="side-menu__title">
-                    DASHBOARD 
+                    DASHBOARD
                 </div>
             </a>
         </li>
         <li>
-            <a href="{{ url('/simpeg/biodata/data-utama') }}" class="side-menu{{ (request()->is('simpeg/biodata*')) ? ' side-menu--active' : '' }}">
+            <a href="{{ url('/simpeg/biodata') }}" class="side-menu{{ (request()->is('simpeg/biodata*')) ? ' side-menu--active' : '' }}">
                 <div class="side-menu__icon cursor-pointer" title="BIODATA"> <i data-lucide="user"></i> </div>
                 <div class="side-menu__title">
                     BIODATA
                 </div>
-            </a>            
+            </a>
         </li>
         <li>
             <a href="javascript:;" class="side-menu{{ (request()->is('simpeg/kepegawaian*')) ? ' side-menu--active' : '' }}">
@@ -115,7 +115,7 @@
                     <div class="side-menu__sub-icon "> <i data-lucide="chevron-down"></i> </div>
                 </div>
             </a>
-            <ul class="{{ (request()->is('simpeg/pendidikan*')) ? 'side-menu__sub-open' : '' }}">               
+            <ul class="{{ (request()->is('simpeg/pendidikan*')) ? 'side-menu__sub-open' : '' }}">
                 <li>
                     <a href="{{ url('/simpeg/pendidikan/riwayat-pendidikan')}}" class="side-menu{{ (request()->is('/simpeg/pendidikan/riwayat-pendidikan')) ? ' side-menu--active' : '' }}">
                         <div class="side-menu__icon cursor-pointer" title="Riwayat Pendidikan"> <i data-lucide="circle"></i> </div>
@@ -138,25 +138,25 @@
                     <div class="side-menu__sub-icon "> <i data-lucide="chevron-down"></i> </div>
                 </div>
             </a>
-            <ul class="{{ (request()->is('simpeg/pelatihan*')) ? 'side-menu__sub-open' : '' }}">             
+            <ul class="{{ (request()->is('simpeg/pelatihan*')) ? 'side-menu__sub-open' : '' }}">
                 <li>
                     <a href="{{ url('/simpeg/pelatihan/riwayat-diklat-jabatan')}}" class="side-menu{{ (request()->is('/simpeg/pelatihan/riwayat-diklat-jabatan')) ? ' side-menu--active' : '' }}">
                         <div class="side-menu__icon cursor-pointer" title="Riwayat Diklat Jabatan"> <i data-lucide="circle"></i> </div>
                         <div class="side-menu__title"> Riwayat Diklat Jabatan </div>
                     </a>
-                </li>             
+                </li>
                 <li>
                     <a href="{{ url('/simpeg/pelatihan/riwayat-diklat-teknis')}}" class="side-menu{{ (request()->is('/simpeg/pelatihan/riwayat-diklat-teknis')) ? ' side-menu--active' : '' }}">
                         <div class="side-menu__icon cursor-pointer" title="Riwayat Diklat Teknis"> <i data-lucide="circle"></i> </div>
                         <div class="side-menu__title"> Riwayat Diklat Teknis </div>
                     </a>
-                </li>             
+                </li>
                 <li>
                     <a href="{{ url('/simpeg/pelatihan/riwayat-diklat-fungsional')}}" class="side-menu{{ (request()->is('/simpeg/pelatihan/riwayat-diklat-fungsional')) ? ' side-menu--active' : '' }}">
                         <div class="side-menu__icon cursor-pointer" title="Riwayat Diklat Fungsional"> <i data-lucide="circle"></i> </div>
                         <div class="side-menu__title"> Riwayat Diklat Fungsional </div>
                     </a>
-                </li>            
+                </li>
                 <li>
                     <a href="{{ url('/simpeg/pelatihan/riwayat-seminar')}}" class="side-menu{{ (request()->is('/simpeg/pelatihan/riwayat-seminar')) ? ' side-menu--active' : '' }}">
                         <div class="side-menu__icon cursor-pointer" title="Riwayat Seminar"> <i data-lucide="circle"></i> </div>
@@ -200,7 +200,7 @@
                 </li>
             </ul>
         </li>
-       
+
         <li>
             <a href="javascript:;" class="side-menu{{ (request()->is('simpeg/pindah-instansi*')) ? ' side-menu--active' : '' }}">
                 <div class="side-menu__icon cursor-pointer" title="PINDAH INSTANSI"> <i data-lucide="building"></i> </div>
@@ -232,7 +232,7 @@
                     <div class="side-menu__sub-icon "> <i data-lucide="chevron-down"></i> </div>
                 </div>
             </a>
-            <ul class="{{ (request()->is('simpeg/data-lainnya*')) ? 'side-menu__sub-open' : '' }}">               
+            <ul class="{{ (request()->is('simpeg/data-lainnya*')) ? 'side-menu__sub-open' : '' }}">
                 <li>
                     <a href="{{ url('/simpeg/data-lainnya/riwayat-profesi')}}" class="side-menu{{ (request()->is('/simpeg/data-lainnya/riwayat-profesi')) ? ' side-menu--active' : '' }}">
                         <div class="side-menu__icon cursor-pointer" title="Riwayat Profesi"> <i data-lucide="circle"></i> </div>

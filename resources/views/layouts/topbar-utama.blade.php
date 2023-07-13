@@ -1,18 +1,18 @@
 <div class="top-bar">
     <!-- BEGIN: Breadcrumb -->
-        <!-- <nav aria-label="breadcrumb" class="-intro-x mr-auto hidden sm:flex">
+    <!-- <nav aria-label="breadcrumb" class="-intro-x mr-auto hidden sm:flex">
             <div id="toogle">
                 <button>
                     <i data-lucide="menu"></i>
                 </button>
             </div>
         </nav> -->
-        <a href="" class="ml-auto flex items-center text-primary"> <i data-lucide="refresh-ccw" class="w-4 h-4 mr-3"></i> Refresh </a>
-    
+    <a href="" class="ml-auto flex items-center text-primary"> </a>
+
     <!-- END: Breadcrumb -->
     <!-- BEGIN: Search -->
     <div class="intro-x relative mr-3 sm:mr-6">
-        
+
     </div>
     <!-- END: Search -->
     <!-- BEGIN: Notifications -->
@@ -28,7 +28,7 @@
                     </div>
                     <div class="ml-2 overflow-hidden">
                         <div class="flex items-center">
-                            <a href="javascript:;" class="font-medium truncate mr-5">Kevin Spacey</a> 
+                            <a href="javascript:;" class="font-medium truncate mr-5">Kevin Spacey</a>
                             <div class="text-xs text-slate-400 ml-auto whitespace-nowrap">01:10 PM</div>
                         </div>
                         <div class="w-full truncate text-slate-500 mt-0.5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500</div>
@@ -41,7 +41,7 @@
                     </div>
                     <div class="ml-2 overflow-hidden">
                         <div class="flex items-center">
-                            <a href="javascript:;" class="font-medium truncate mr-5">Johnny Depp</a> 
+                            <a href="javascript:;" class="font-medium truncate mr-5">Johnny Depp</a>
                             <div class="text-xs text-slate-400 ml-auto whitespace-nowrap">01:10 PM</div>
                         </div>
                         <div class="w-full truncate text-slate-500 mt-0.5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 20</div>
@@ -54,7 +54,7 @@
                     </div>
                     <div class="ml-2 overflow-hidden">
                         <div class="flex items-center">
-                            <a href="javascript:;" class="font-medium truncate mr-5">Johnny Depp</a> 
+                            <a href="javascript:;" class="font-medium truncate mr-5">Johnny Depp</a>
                             <div class="text-xs text-slate-400 ml-auto whitespace-nowrap">05:09 AM</div>
                         </div>
                         <div class="w-full truncate text-slate-500 mt-0.5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomi</div>
@@ -67,7 +67,7 @@
                     </div>
                     <div class="ml-2 overflow-hidden">
                         <div class="flex items-center">
-                            <a href="javascript:;" class="font-medium truncate mr-5">Morgan Freeman</a> 
+                            <a href="javascript:;" class="font-medium truncate mr-5">Morgan Freeman</a>
                             <div class="text-xs text-slate-400 ml-auto whitespace-nowrap">01:10 PM</div>
                         </div>
                         <div class="w-full truncate text-slate-500 mt-0.5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 20</div>
@@ -80,7 +80,7 @@
                     </div>
                     <div class="ml-2 overflow-hidden">
                         <div class="flex items-center">
-                            <a href="javascript:;" class="font-medium truncate mr-5">Denzel Washington</a> 
+                            <a href="javascript:;" class="font-medium truncate mr-5">Denzel Washington</a>
                             <div class="text-xs text-slate-400 ml-auto whitespace-nowrap">03:20 PM</div>
                         </div>
                         <div class="w-full truncate text-slate-500 mt-0.5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 20</div>
@@ -116,7 +116,7 @@
                 <li>
                     <form action="{{ route('logout') }}" method="post">
                         @csrf
-                        <button type="submit" class="dropdown-item hover:bg-white/5"> <i data-lucide="toggle-right" class="w-4 h-4 mr-2"></i> Logout </button>                        
+                        <button type="submit" class="dropdown-item hover:bg-white/5"> <i data-lucide="toggle-right" class="w-4 h-4 mr-2"></i> Logout </button>
                     </form>
                 </li>
             </ul>
